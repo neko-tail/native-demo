@@ -4,3 +4,7 @@ spring:
   datasource:
     driver-class-name: org.apache.shardingsphere.driver.ShardingSphereDriver
     url: jdbc:shardingsphere:classpath:sharding-config.yaml
+
+mybatis-plus:
+  global-config:
+    enable-sql-runner: true
